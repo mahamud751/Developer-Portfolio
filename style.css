@@ -8,7 +8,7 @@ h1{
 .text{
     color: orangered;
 }
-section{
+.flex-part{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,29 @@ section{
    background-image: url(img/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
+}
+.side-last{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+}
+.last{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#side-left{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#side-right{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.footer{
+    text-align: center;
 }
